@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .texto-branco {
+            color: whitesmoke;
+        }
+
+        .parte-um {
+            background: linear-gradient(135deg, rgb(2, 5, 185), rgb(84, 0, 180));
+            padding-top: 120px;
+            padding-bottom: 40px;
+            min-height: unset;
+        }
+
+        .nav-cor {
+            background: linear-gradient(135deg, rgb(2, 5, 185), rgb(84, 0, 180));
+        }
+
+        .btn-cor:hover {
+            background-color: rgb(73, 0, 245) !important;
+            color: whitesmoke !important;
+            border-color: blueviolet !important;
+
+        }
+    </style>
+</head>
+
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-lg nav-cor">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-white" href="./apptreino.html">
+                <img src="/IMG/clipboard2-data.svg">
+                <span>APPtreino</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link texto-branco" href="#historico">Historico</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link texto-branco" href="#perfil">Perfil</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link texto-branco" href="">Em Quadra</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class=" parte-um pt-5 text-white aling-items-center">
+        <div class="container">
+            <div class="row aling-items-center gy-5">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h1 style="font-family: initial;" class="display-4 mb-4 fw-bold">
+                        Treinos
+                    </h1>
+                    <p style="font-family: monospace;"> “Se você não acredita em si mesmo, ninguém fará isso por você.”
+                        <br><br>“O único aspecto que não pode mudar, no entanto, é essa obsessão.”<br><br>“No momento em
+                        que você desiste, é o momento em que deixa outra pessoa vencer.” <br>-Kobe Bryant
+                    </p>
+                </div>
+                <div class="col-lg-6 shadow-sm rounded-4 overflow-hidden">
+                    <img class="img-fluid w-10 h-100 object-fit-cover rounded-4" src="/IMG/kobe-treino.jpg">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="aling-items-center">
+        <div class="container-fluid">
+            <div class="row bg-dark justify-content-center text-center texto-branco">
+                <h1 style="font-family: monospace;" class="fw-bold">Treinos</h1>
+                <p>Escolha uma categoria de treinos</p>
+            </div>
+            <div class="d-flex flex-colum flex-sm-row gap-3 justify-content-center justify-content-lg-start bg-dark">
+                <a class="btn btn-outline-light btn-lg w-100 w-sm-auto bg-dark btn-cor" href="">Aremessos</a>
+                
+                <a class="btn btn-outline-light btn-lg w-100 w-sm-auto bg-dark btn-cor" href="">Passes</a>
+
+                <a class="btn btn-outline-light btn-lg w-100 w-sm-auto bg-dark btn-cor" href="">Marcação</a>
+
+                <a class="btn btn-outline-light btn-lg w-100 w-sm-auto bg-dark btn-cor" href="">Movimentação</a>
+
+                <a class="btn btn-outline-light btn-lg w-100 w-sm-auto bg-dark btn-cor" href="">Drible </a>
+            </div>
+        </div>
+    </section>
+
+    <section class=" p-5 aling-items-center">
+        <div class="container-fluid">
+            <div class="row bg-dark justify-content-center text-center text-white">
+                <h3>Não sabe por onde começar?</h3>
+                <p>Veja os fundamentos</p>
+                <div class="col-4">
+                    <div
+                        class="d-flex flex-colum flex-sm-row gap-3 justify-content-center justify-content-lg-start bg-dark">
+                        <a class="btn btn-outline-light btn-lg w-100 w-sm-auto bg-dark btn-cor" href="fundamentos">Fundamentos do basquete</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
